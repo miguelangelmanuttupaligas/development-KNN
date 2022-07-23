@@ -70,7 +70,6 @@ class KNN:
 
 
 if __name__ == '__main__':
-    # última fila debe ser encode
     import pandas as pd
 
     df = pd.read_csv('../iris.data.csv')
@@ -78,7 +77,7 @@ if __name__ == '__main__':
     X = df.iloc[:, :4]
     y = df.iloc[:, -1]
 
-    y = utils.label_encoder(y)
+    y = utils.label_encoder(y)  # última columna debe ser transformada a enteros
 
     X_train, X_test, y_train, y_test = utils.train_test_split(X, y, test_size=0.33, random_state=42)
 

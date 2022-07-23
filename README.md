@@ -28,7 +28,7 @@ proveido en los ejemplos de la propia librería en su documentación. Le dejaré
 
 El resultado fue muy similar:
 
-<img src="results/comparative.png">
+<img src="result/comparative.png">
 
 El scripts se puede encontrar en "main.py", el cual fue modificado en cierto modo para soportar el algoritmo creado.
 
